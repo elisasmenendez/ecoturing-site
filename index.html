@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoTuring — Explore a Natureza!</title>
+  <meta name="description" content="EcoTuring é um aplicativo para trilhas autoguiadas com foco em educação ambiental e ecoturismo. Desenvolvido pelo IF Baiano.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <eco-header pagina-ativa="inicio" base="./"></eco-header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <span class="hero-tag">IF Baiano · Extensão Tecnológica</span>
+      <h1>Explore a<br><em>Natureza!</em></h1>
+      <p class="hero-sub">Trilhas autoguiadas com informações georreferenciadas em áudio, texto e imagem — autonomia e imersão na natureza.</p>
+      <div class="hero-btns">
+        <a href="download/" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1v9M5 7l3 3 3-3M2 12.5A1.5 1.5 0 003.5 14h9a1.5 1.5 0 001.5-1.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Baixar o App
+        </a>
+        <a href="vr/" class="btn btn-outline">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.5"/><ellipse cx="8" cy="8" rx="3" ry="6.5" stroke="currentColor" stroke-width="1.5"/><line x1="1.5" y1="8" x2="14.5" y2="8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          Ver Trilhas 360°
+        </a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-logo-wrap">
+        <img src="logo-vertical.jpeg" alt="EcoTuring" class="hero-logo-img">
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <section class="section" id="sobre">
+    <div class="section-header">
+      <span class="section-tag">Sobre o Projeto</span>
+      <h2>Tecnologia a serviço da natureza</h2>
+    </div>
+    <div class="sobre-texto">
+      <p>O projeto EcoTuring nasceu durante uma trilha no Campus Xique-Xique, quando a professora de informática <strong>Elisa Menendez</strong> percebeu a dificuldade dos trilheiros em acompanhar as explicações do guia. A partir disso, desenvolveu-se um aplicativo para trilhas autoguiadas que permite ao usuário acessar informações georreferenciadas em <strong>áudio, texto e imagem</strong>, promovendo autonomia e imersão na natureza. A primeira versão foi criada entre 2022 e 2023 com apoio do Edital PIBIEX Júnior. Desde então, o projeto vem sendo aprimorado com novas trilhas e funcionalidades, incluindo acessibilidade em Libras. Desenvolvido com <strong>Flutter e Firebase</strong>, o app está disponível para Android na Google Play Store. O cadastro das trilhas envolve mapeamento via GPS, levantamento de dados e colaboração com a comunidade local. O EcoTuring atua na região de <strong>Xique-Xique e Valença</strong>, promovendo integração entre saberes populares, ciência e inovação.</p>
+    </div>
+    <div class="section-header">
+      <span class="section-tag">Expansão do Projeto</span>
+      <h2>Gostaria de cadastrar uma trilha?</h2>
+    </div>
+    <div class="sobre-texto">
+      <p>Estamos sempre buscando expandir nosso catálogo de trilhas e promover a conservação da natureza. Dessa forma, convidamos instituições, escolas, prefeituras, projetos de extensão e demais interessados a entrarem em contato com a equipe do EcoTuring (ecoturing@gmail.com | @ecoturing) para o cadastro de trilhas interpretativas em suas regiões. Juntos, podemos ampliar o acesso à educação ambiental, fortalecer o ecoturismo e promover uma conexão mais consciente com os diversos biomas brasileiros.</p>
+    </div>
+    <div class="sobre-stats">
+      <div class="stat-card">
+        <div class="num">2022</div>
+        <div class="label">Início do projeto</div>
+      </div>
+      <div class="stat-card">
+        <div class="num">15+</div>
+        <div class="label">Trilhas cadastradas</div>
+      </div>
+      <div class="stat-card">
+        <div class="num">4</div>
+        <div class="label">Artigos publicados</div>
+      </div>
+      <div class="stat-card">
+        <div class="num">2</div>
+        <div class="label">Biomas mapeados</div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <section class="insta-band">
+    <h3>Acompanhe no Instagram!</h3>
+    <p>Novidades do projeto, registros das trilhas e muito mais.</p>
+    <a href="https://www.instagram.com/ecoturing" target="_blank" rel="noopener" class="btn-insta">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+      @ecoturing
+    </a>
+  </section>
+
+  <eco-footer base="./"></eco-footer>
+
+  <script src="components.js"></script>
+</body>
+</html>
