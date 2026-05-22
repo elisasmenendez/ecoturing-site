@@ -18,6 +18,7 @@ const NAV_ITEMS = [
   { id: 'publications',  label: 'Publicações',  path: 'publications/' },
   { id: 'virtual-reality',           label: 'VR 360°',      path: 'virtual-reality/'          },
   { id: 'download',     label: 'Download',     path: 'download/'    },
+  { id: 'add-trails',   label: 'Cadastro de Trilha', path: 'add-trails/' },
   { id: 'privacy-policy',  label: 'Política de Privacidade',  path: 'privacy-policy/' },
 ];
 
